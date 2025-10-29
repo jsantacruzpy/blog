@@ -1,0 +1,28 @@
+baseURL = "https://jsantacruzpy.github.io/"
+languageCode = "es"
+title = "Jose Santacruz"
+theme = "hugo-coder"
+
+[params]
+  author = "Jose Santacruz"
+  description = "Consultor Tecnologico"
+  info = "Bienvenido a mi sitio personal"
+  avatarURL = "images/profile.jpg"
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+  since = 2025
+
+[menu]
+  [[menu.main]]
+  name = "Inicio"
+  url  = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "Blog"
+  url  = "/blog/"
+  weight = 2
+
+[social]
+  github = "https://github.com/"
+  linkedin = "https://www.linkedin.com/in/jose-santacruz-14202b170/"
