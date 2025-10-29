@@ -1,4 +1,4 @@
-baseURL = "https://jsantacruzpy.github.io/"
+baseURL = "https://jsantacruzpy.github.io/blog"
 languageCode = "es"
 title = "Jose Santacruz"
 theme = "hugo-coder"
