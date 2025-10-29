@@ -37,6 +37,11 @@ author = "authors"
   url  = "/blog/"
   weight = 2
 
+    [[menu.main]]
+  name = "Posts"
+  url  = "/posts/"
+  weight = 3
+
 [[params.social]]
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
