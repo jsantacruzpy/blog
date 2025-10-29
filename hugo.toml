@@ -2,6 +2,20 @@ baseURL = "https://jsantacruzpy.github.io/"
 languageCode = "es"
 title = "Jose Santacruz"
 theme = "hugo-coder"
+enableEmoji = true
+
+[pagination]
+pagerSize = 6
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 [params]
   author = "Jose Santacruz"
@@ -23,6 +37,22 @@ theme = "hugo-coder"
   url  = "/blog/"
   weight = 2
 
-[social]
-  github = "https://github.com/"
-  linkedin = "https://www.linkedin.com/in/jose-santacruz-14202b170/"
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/jsantacruzpy"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/jose-santacruz-14202b170/"
+
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 6
+url = "https://jsantacruzpy.github.io/blog/"
+rel = "alternate"
+type = "application/rss+xml"
