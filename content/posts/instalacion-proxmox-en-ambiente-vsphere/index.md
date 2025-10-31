@@ -1,15 +1,10 @@
-+++ 
-draft = true
-date = 2025-10-24T14:00:07-03:00
-title = "Instalación de Proxmox VE 9 en VMware vSphere"
-description = "testt descripcion"
-slug = ""
-authors = ["Jose Santacruz"]
-tags = ["virtualizacion", "proxmox"]
-categories = []
-externalLink = ""
-series = []
-+++
+---
+title: "Instalación de Proxmox VE 9 en VMware vSphere"
+date: 2025-10-24
+tags: ["virtualizacion", "proxmox"]
+authors: ["Jose Santacruz"]
+tags: ["virtualizacion", "proxmox"]
+---
 ---
 
 Proxmox Virtual Environment (VE) es una plataforma de virtualización de código abierto muy utilizada en entornos empresariales, ya que permite la administración de máquinas virtuales y contenedores de forma centralizada.  
