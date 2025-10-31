@@ -91,11 +91,10 @@ Una vez finalizada la instalación, podemos acceder desde un navegador ingresand
 
 ---
 Con esto, Proxmox VE 9 ya está instalado en VMware vSphere.  
-En próximos posts se podrá ver:
-- Configuraciones iniciales recomendadas
-- Creación de máquinas virtuales
-- Gestión de contenedores LXC
-- Configuración de almacenamiento y backups
+En los sigtes laboratorios veremos:
+- Configuracionde un cluster y unir hosts
+- Configuracion de san con iscsi y multipath
+- Configuración de backup server y backups
 
 ---
 

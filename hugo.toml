@@ -1,6 +1,5 @@
 baseURL = "https://jsantacruzpy.github.io/blog"
 languageCode = "es"
-title = "Jose Santacruz"
 theme = "hugo-coder"
 enableEmoji = true
 
@@ -20,7 +19,7 @@ author = "authors"
 [params]
   author = "Jose Santacruz"
   description = "Consultor Tecnologico"
-  info = "Bienvenido a mi sitio personal"
+  info = "VMware VCP | Cisco CCNP ENCORE | AWS Cloud Architect | Microsoft MTA  Consultor en Tecnologías de la Información"
   avatarURL = "images/profile.jpg"
   colorScheme = "auto"
   hideColorSchemeToggle = false
@@ -32,15 +31,10 @@ author = "authors"
   url  = "/"
   weight = 1
 
-  [[menu.main]]
-  name = "Blog"
-  url  = "/blog/"
-  weight = 2
-
     [[menu.main]]
   name = "Posts"
   url  = "/posts/"
-  weight = 3
+  weight = 2
 
 [[params.social]]
 name = "Github"

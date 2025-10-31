@@ -1,5 +1,5 @@
 ---
-title: "Configuración de iSCSI Multipath en Proxmox VE"
+title: "Configuración de iSCSI Multipath en Proxmox VE (En Proceso)"
 date: 2025-10-31
 tags: ["virtualizacion", "proxmox"]
 ---
