@@ -1,24 +1,23 @@
-+++
-date = '2025-10-17T17:07:35-03:00'
-draft = true
-title = 'Configurar Archive Cisco Ios'
-+++
-## Descripción
+---
+date: 2025-10-17
+authors: ["Jose Santacruz"]
+draft: true
+title: 'Configurar Archive Cisco Ios'
+tags: ["networking", "cisco"]
+---
 
+## Descripción
 En esta guía veremos cómo **configurar copias automáticas de seguridad (backups)** de la configuración de equipos Cisco IOS utilizando la función **`archive`**, almacenando los archivos en un **servidor FTP remoto**.  
 Esta práctica permite mantener un historial de configuraciones y simplificar la recuperación ante errores o cambios no deseados.
 
 ---
 
 ## Requerimientos
-
 - Un **servidor FTP** previamente configurado y accesible desde el dispositivo Cisco.  
 - Credenciales de usuario con permisos de escritura en el repositorio FTP.
-
 ---
 
 ## 1. Configurar credenciales para autenticación FTP
-
 Primero se definen las credenciales que el dispositivo utilizará para conectarse al servidor FTP:
 
 ```bash
@@ -40,9 +39,7 @@ Router(config-archive)# exit
 ```
 
 ## 3. Verificar y aplicar backups
-
 Una vez configurado el archive, podemos revisar los backups existentes y restaurar la configuración deseada:
-
 ```bash
 # Ver backups existentes
 Router# show archive
