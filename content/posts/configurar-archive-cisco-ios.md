@@ -1,7 +1,6 @@
 ---
 date: 2025-10-17
 authors: ["Jose Santacruz"]
-draft: true
 title: 'Configurar Archive Cisco Ios'
 tags: ["networking", "cisco"]
 ---
